@@ -15,3 +15,7 @@ var removeDuplicates = function (nums) {
   }
   return nums;
 };
+
+var removeDuplicates_2 = function (nums) {
+  return Array.from(new Set(nums));
+};
